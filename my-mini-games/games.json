@@ -1,0 +1,11 @@
+[
+  {
+    "id": "snake",
+    "title": "貪食蛇",
+    "description": "吃下食物、讓蛇變長，小心不要撞到自己！",
+    "category": "益智",
+    "path": "games/snake/",
+    "emoji": "🐍",
+    "status": "可遊玩"
+  }
+]

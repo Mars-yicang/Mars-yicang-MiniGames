@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="我的網頁小遊戲收藏平台">
+  <title>My Mini Games｜網頁小遊戲收藏</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./"><span class="brand-icon">🎮</span><span>MY MINI GAMES<small>YOUR PERSONAL GAME COLLECTION</small></span></a>
+    <a class="github-link" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">WELCOME TO MY ARCADE</p>
+      <h1>探索我的<span>遊戲收藏</span></h1>
+      <p class="hero-copy">把喜歡的小遊戲收藏在這裡，隨時打開瀏覽器就能玩。</p>
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="搜尋遊戲名稱或介紹..." autocomplete="off">
+      </label>
+    </section>
+
+    <section class="library">
+      <div class="section-heading">
+        <div><p class="eyebrow">GAME LIBRARY</p><h2>遊戲列表</h2></div>
+        <span id="gameCount" class="count">載入中…</span>
+      </div>
+      <nav id="categoryFilters" class="filters" aria-label="遊戲分類"></nav>
+      <div id="gameGrid" class="game-grid" aria-live="polite"></div>
+      <p id="emptyState" class="empty-state" hidden>找不到符合條件的遊戲，試試其他關鍵字吧。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">由 GitHub Pages 免費託管 · Made for fun</footer>
+</body>
+</html>
