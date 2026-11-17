@@ -8,4 +8,13 @@
     "emoji": "🐍",
     "status": "可遊玩"
   }
+  {
+    "id": "devils-roulette",
+    "title": "惡魔輪盤",
+    "description": "成為最終的贏家並滿載而歸！",
+    "category": "益智",
+    "path": "games/devils-roulette/",
+    "emoji": "🎡",
+    "status": "可遊玩"
+  }
 ]
