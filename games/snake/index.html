@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>貪食蛇｜My Mini Games</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="game.js" defer></script>
+</head>
+<body>
+  <main class="wrap">
+    <a class="back" href="../../">← 回到遊戲收藏</a>
+    <header><p class="eyebrow">CLASSIC ARCADE</p><h1>🐍 貪食蛇</h1><p>吃下紅色食物，讓蛇不斷變長！</p></header>
+    <section class="game-panel">
+      <div class="stats"><span>分數 <b id="score">0</b></span><span>最高分 <b id="best">0</b></span></div>
+      <canvas id="board" width="400" height="400" aria-label="貪食蛇遊戲畫面"></canvas>
+      <p id="message" class="message">按「開始遊戲」開始，使用方向鍵或 WASD 操作。</p>
+      <div class="actions"><button id="start">開始遊戲</button><button id="pause" class="secondary">暫停</button></div>
+      <div class="touch-controls" aria-label="觸控方向鍵">
+        <button data-dir="up">▲</button>
+        <div><button data-dir="left">◀</button><button data-dir="down">▼</button><button data-dir="right">▶</button></div>
+      </div>
+    </section>
+    <p class="hint">電腦：方向鍵 / WASD　手機：使用下方方向鍵</p>
+  </main>
+</body>
+</html>
